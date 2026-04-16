@@ -1,30 +1,64 @@
-# Floating notes
-Start a markdown note as quick as possible.
-No worries about editors, workspaces, accounts etc.
+# Markdown Notes
 
-## How to use
-![tutorial](./tutorial.gif)
+A lightweight, browser-based markdown note-taking app. No installation, no accounts, no server — just open and start writing.
 
-### Create a shortcut
-Creating the shortcut not only gives a quick access,
-but also start the app without distracting browser toolbars.
-Optional but highly suggested
+## Getting Started
 
-1. Go to https://urfdvw.github.io/floating-notes
-2. Using chrome as example
-![](2023-03-08-18-33-40.png)
-3. Pin shortcut to system bar or dock
+https://bbgithub.dev.bloomberg.com/pages/hwang1150/sticky-notes/
 
-### How to use
-1. click on the created shortcut
-    - or go to https://urfdvw.github.io/floating-notes
-2. Evething should be intuitive
-3. [Ctrl-Enter] ([Cmd-Enter] on mac) to hide the editor
+## Features
 
-PS: You can keep note always on top on Windows 10+ with the help of
-[PowerToy](https://learn.microsoft.com/en-us/windows/powertoys/)
+### Color-Coded Tabs
 
+Six color tabs (yellow, green, red, blue, purple, gray) at the bottom of the screen let you organize separate notes. Click a tab to switch. Each tab stores its own content independently.
 
-## Tech involved
-- Ace Editor for editor
-- Zero-MD for rendering
+### Markdown Editor + Live Preview
+
+The screen is split into two panes:
+- **Left** - A markdown editor with syntax highlighting and autocompletion (powered by Ace Editor)
+- **Right** - A live preview that renders your markdown as you type
+
+### Resizable Split View
+
+Drag the divider between the editor and preview to adjust the layout. Your preferred ratio is saved automatically.
+
+### Auto-Save
+
+All notes are saved to your browser's local storage on every keystroke. Your notes persist across browser sessions — no manual save needed.
+
+### Export to File
+
+Click the disk icon (💾) to download the current note as a `.md` file. The filename is derived from the first heading in your note.
+
+### Dark Mode
+
+Click the moon icon (🌑) to toggle dark mode. Your preference is remembered.
+
+### Hide Editor
+
+Click the pencil icon (✏️) to hide the editor and view the preview in full width. Click again to restore the editor.
+
+## Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `Cmd-]` / `Ctrl-]` | Indent selected lines |
+| `Cmd-[` / `Ctrl-[` | Dedent selected lines |
+
+Standard Ace Editor shortcuts (tab, indent, undo/redo, etc.) are also available.
+
+## Data Storage
+
+All data is stored in your browser's `localStorage`. Nothing is sent to any server. Clearing your browser data will delete your notes.
+
+To back up your notes, use the export button (💾) to download each tab as a markdown file.
+
+## Browser Requirements
+
+- A modern browser (Chrome, Firefox, Safari, Edge)
+- JavaScript enabled
+- Internet connection on first load (to fetch Ace Editor and Zero-MD from CDNs; cached afterward)
+
+## License
+
+GNU General Public License v3.0 — see [LICENSE](LICENSE).
