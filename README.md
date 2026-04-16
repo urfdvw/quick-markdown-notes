@@ -4,7 +4,7 @@ A lightweight, browser-based markdown note-taking app. No installation, no accou
 
 ## Getting Started
 
-https://github.com/urfdvw/quick-markdown-notes
+https://urfdvw.github.io/quick-markdown-notes/
 
 ## Features
 
