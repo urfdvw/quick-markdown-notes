@@ -4,7 +4,7 @@ A lightweight, browser-based markdown note-taking app. No installation, no accou
 
 ## Getting Started
 
-https://bbgithub.dev.bloomberg.com/pages/hwang1150/sticky-notes/
+https://github.com/urfdvw/quick-markdown-notes
 
 ## Features
 
